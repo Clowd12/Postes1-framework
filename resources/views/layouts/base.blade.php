@@ -21,7 +21,8 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/bookmark">Bookmark</a></li>
-             <li><a href="/profil">Profil</a></li>
+                <li><a href="/index">Tambah</a></li>
+                <li><a href="/profil">Profil</a></li>
             </ul>
         </nav>
 

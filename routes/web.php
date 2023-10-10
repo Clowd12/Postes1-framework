@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ManhwaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +22,12 @@ Route::get('/bookmark', function () {
     return view('bookmark');
 });
 
-Route::get('/profil', function () {
-    return view('profil');
-});
+Route::get('/index',[MangaController::class,'index']);
+Route::post( '/tambah/store', [MangaController::class, 'store']);
 
+Route::get('/index',[ManhwaController::class,'index']);
+Route::post( '/tambah/store', [ManhwaController::class, 'store']);
+
+Route::get('/tambah', function () {
+    return view('tambah');
+});

@@ -4,6 +4,8 @@
 
 <body>
     <h2>Manga Popular Hari Ini</h2>
+
+
     <div class="manga-grid">
         <div class="manga-card">
             <h3>Damn Reincarnation</h3>
@@ -28,7 +30,7 @@
         <div class="manga-card">
             <h3>Nano Machine</h3>
             <img src="/image/5.jpg" alt="" id="img-list" class="img-list">
-            <p>Chapter 179 END</p>
+            <p>Chapter 174</p>
         </div>
         <div class="manga-card">
             <h3>Wind Breaker</h3>
@@ -49,7 +51,7 @@
         <div class="manga-card">
             <h3>Nano Machine</h3>
             <img src="/image/5.jpg" alt="" id="img-list" class="img-list">
-            <p>Chapter 179 END</p>
+            <p>Chapter 174</p>
         </div>
         <div class="manga-card">
             <h3>Magic Emperor</h3>
