@@ -20,15 +20,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/register', function () {
-    return view('register');
-});
+Route::get('/register',[UserController::class,'register']);
+Route::post( '/register', [UserController::class, 'store'])->name('register');
 
-Route::get('/register',[RegisterController::class,'create']);
-Route::post( '/register', [RegisterController::class, 'store'])->name('register');
-
-Route::get('/login',[LoginController::class,'login'])->name('login');
-Route::post( '/login', [LoginController::class, 'authenticate'])->name('auth');
+Route::get('/login',[UserController::class,'login'])->name('login');
+Route::post( '/login', [UserController::class, 'authenticate'])->name('auth');
 
 Route::get('/bookmark', function () {
     return view('bookmark');
